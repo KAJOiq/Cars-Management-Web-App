@@ -76,20 +76,3 @@ The project is organized as follows:
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots here to demonstrate the user interface and functionalities.
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! If you’d like to contribute, please **fork the repository**, make your changes, and submit a **Pull Request**. For major changes, it's best to open an **Issue** first to discuss your ideas.
-
----
-
-## 📝 License
-
-This project is licensed under the **MIT License**. Please review the `LICENSE` file for more details.
-
----
