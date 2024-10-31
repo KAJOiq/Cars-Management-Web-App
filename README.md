@@ -1,60 +1,59 @@
 
 # Cars Management Web App
 
-تطبيق **Cars Management Web App** هو نظام لإدارة بيانات السيارات باستخدام **ASP.NET Core MVC** و**Entity Framework Core** و**SQLite**. يوفر التطبيق واجهة سهلة الاستخدام تمكنك من تنفيذ عمليات **CRUD** (إضافة، قراءة، تعديل، حذف) على بيانات السيارات بواجهة استخدام بسيطة وتفاعلية.
+The **Cars Management Web App** is a system for managing car data using **ASP.NET Core MVC**, **Entity Framework Core**, and **SQLite**. This app provides an easy-to-use interface for performing **CRUD** (Create, Read, Update, Delete) operations on car records with a simple and interactive UI.
 
 ---
 
-## 🚀 الميزات
+## 🚀 Features
 
-- **إضافة سيارات جديدة**: إمكانية إضافة سيارة جديدة مع تفاصيل مثل النوع والموديل.
-- **عرض قائمة السيارات**: عرض قائمة شاملة بجميع السيارات المسجلة.
-- **تحديث بيانات السيارات**: تعديل البيانات المتوفرة لأي سيارة.
-- **حذف سيارة**: إزالة سيارة من قاعدة البيانات.
-- **التحقق من صحة البيانات**: ضمان صحة البيانات المدخلة مثل التأكد من إدخال موديل السيارة كأربعة أرقام (مثل 2023).
-
----
-
-## 🛠️ التقنيات المستخدمة
-
-- **ASP.NET Core 8**: لبناء جانب الخادم (الخلفية).
-- **Entity Framework Core**: لإدارة بيانات قاعدة البيانات باستخدام ORM.
-- **SQLite**: قاعدة بيانات خفيفة وسهلة التكوين.
-- **Bootstrap**: تصميم واجهات استجابة مع الأجهزة المختلفة.
+- **Add New Cars**: Add a new car entry with details such as type and model.
+- **View Car List**: Display a comprehensive list of all registered cars.
+- **Update Car Information**: Edit the available information for any car.
+- **Delete Car**: Remove a car from the database.
+- **Data Validation**: Ensure the correctness of input data, such as requiring a 4-digit year for the car model (e.g., 2023).
 
 ---
 
-## ⚙️ الإعداد
+## 🛠️ Technologies Used
 
-للبدء باستخدام المشروع، اتبع الخطوات التالية:
+- **ASP.NET Core 8**: Backend framework.
+- **Entity Framework Core**: ORM for database management.
+- **SQLite**: Lightweight, easy-to-configure database.
+- **Bootstrap**: Responsive design for adaptable UI.
 
-1. **نسخ المشروع**:
+---
+
+## ⚙️ Setup
+
+To start using the project, follow these steps:
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/KAJOiq/Cars-Management-Web-App.git
-الانتقال إلى مجلد المشروع:
+Navigate to the project directory:
+
 
 cd Cars-Management-Web-App
-تثبيت التبعيات:
-
+Install dependencies:
 
 dotnet restore
-تحديث قاعدة البيانات:
+Update the database:
 
 dotnet ef database update
- ## تشغيل التطبيق: 
-
+Run the application:
 
 dotnet run
- ##  فتح التطبيق: بعد التشغيل، يمكنك الوصول إلى التطبيق عبر الرابط http://localhost:5000.
+Access the app: After running, you can access the app at http://localhost:5000.
 
- ##  📖 كيفية الاستخدام 
-إضافة سيارة: انتقل إلى صفحة إضافة سيارة، وقم بتعبئة الحقول المطلوبة، ثم انقر على حفظ.
-عرض جميع السيارات: انتقل إلى صفحة قائمة السيارات لمشاهدة كافة السيارات المسجلة.
-تعديل أو حذف: استخدم أزرار تعديل وحذف الموجودة بجانب كل سيارة لتحديث أو إزالة السيارة من القائمة.
-🗂️ هيكل المشروع
-يتم تنظيم المشروع على النحو التالي:
+📖 Usage
+Add a Car: Navigate to the Add Car page, fill in the required fields, and click Save.
+View All Cars: Go to the Cars List page to view all registered cars.
+Edit or Delete: Use the Edit and Delete buttons next to each car to update or remove records.
+🗂️ Project Structure
+The project is organized as follows:
 
-Controllers/: يحتوي على ملفات تحكم الطلبات (CRUD).
-Models/: يحتوي على الكائنات الممثلة لجداول قاعدة البيانات.
-Views/: يحتوي على ملفات الواجهة (Razor Views) لكل صفحة.
-Data/: إعدادات تكوين وإدارة قاعدة البيانات.
+Controllers/: Contains the files for handling requests (CRUD operations).
+Models/: Contains the entities representing database tables.
+Views/: Contains Razor View files for each page.
+Data/: Configures and manages the database settings.
