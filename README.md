@@ -31,22 +31,24 @@ To start using the project, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/KAJOiq/Cars-Management-Web-App.git
----
-#Navigate to the project directory:
 
-   ```bash
-   cd Cars-Management-Web-App
-##Install dependencies:
+2. **Navigate to the project directory**:
+   
+
+  ```bash
+  cd Cars-Management-Web-App
+  ```
+## Install dependencies:
 ---
-   ```bash
+  
 dotnet restore
 ##Update the database:
 ---
-   ```bash
+
 dotnet ef database update
 ##Run the application:
 ---
-   ```bash
+
 dotnet run
 ---
 ##📖 Usage
