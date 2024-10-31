@@ -1,4 +1,3 @@
-
 # Cars Management Web App
 
 The **Cars Management Web App** is a system for managing car data using **ASP.NET Core MVC**, **Entity Framework Core**, and **SQLite**. This app provides an easy-to-use interface for performing **CRUD** (Create, Read, Update, Delete) operations on car records with a simple and interactive UI.
@@ -31,34 +30,66 @@ To start using the project, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/KAJOiq/Cars-Management-Web-App.git
+   ```
 
 2. **Navigate to the project directory**:
-   
+   ```bash
+   cd Cars-Management-Web-App
+   ```
 
-  ```bash
-  cd Cars-Management-Web-App
-  ```
-## Install dependencies:
----
-  
-dotnet restore
-##Update the database:
+3. **Install dependencies**:
+   ```bash
+   dotnet restore
+   ```
+
+4. **Update the database**:
+   ```bash
+   dotnet ef database update
+   ```
+
+5. **Run the application**:
+   ```bash
+   dotnet run
+   ```
+
+6. **Access the app**:
+   After running, you can access the app at [http://localhost:5000](http://localhost:5000).
+
 ---
 
-dotnet ef database update
-##Run the application:
+## 📖 Usage
+
+- **Add a Car**: Navigate to the **Add Car** page, fill in the required fields, and click **Save**.
+- **View All Cars**: Go to the **Cars List** page to view all registered cars.
+- **Edit or Delete**: Use the **Edit** and **Delete** buttons next to each car to update or remove records.
+
 ---
 
-dotnet run
----
-##📖 Usage
-Add a Car: Navigate to the Add Car page, fill in the required fields, and click Save.
-View All Cars: Go to the Cars List page to view all registered cars.
-Edit or Delete: Use the Edit and Delete buttons next to each car to update or remove records.
----
-##🗂️ Project Structure
+## 🗂️ Project Structure
+
 The project is organized as follows:
-Controllers/: Contains the files for handling requests (CRUD operations).
-Models/: Contains the entities representing database tables.
-Views/: Contains Razor View files for each page.
-Data/: Configures and manages the database settings.
+
+- **Controllers/**: Contains the files for handling requests (CRUD operations).
+- **Models/**: Contains the entities representing database tables.
+- **Views/**: Contains Razor View files for each page.
+- **Data/**: Configures and manages the database settings.
+
+---
+
+## 📸 Screenshots
+
+Add screenshots here to demonstrate the user interface and functionalities.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! If you’d like to contribute, please **fork the repository**, make your changes, and submit a **Pull Request**. For major changes, it's best to open an **Issue** first to discuss your ideas.
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License**. Please review the `LICENSE` file for more details.
+
+---
