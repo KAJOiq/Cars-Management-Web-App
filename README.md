@@ -31,26 +31,29 @@ To start using the project, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/KAJOiq/Cars-Management-Web-App.git
-Navigate to the project directory:
+---
+#Navigate to the project directory:
 
-
-cd Cars-Management-Web-App
+   ```bash
+   cd Cars-Management-Web-App
 ##Install dependencies:
-
+---
+   ```bash
 dotnet restore
 ##Update the database:
-
+---
+   ```bash
 dotnet ef database update
 ##Run the application:
-
+---
+   ```bash
 dotnet run
-Access the app: After running, you can access the app at http://localhost:5000.
-
+---
 ##📖 Usage
 Add a Car: Navigate to the Add Car page, fill in the required fields, and click Save.
 View All Cars: Go to the Cars List page to view all registered cars.
 Edit or Delete: Use the Edit and Delete buttons next to each car to update or remove records.
-
+---
 ##🗂️ Project Structure
 The project is organized as follows:
 Controllers/: Contains the files for handling requests (CRUD operations).
