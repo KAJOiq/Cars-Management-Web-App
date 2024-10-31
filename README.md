@@ -35,24 +35,24 @@ Navigate to the project directory:
 
 
 cd Cars-Management-Web-App
-Install dependencies:
+##Install dependencies:
 
 dotnet restore
-Update the database:
+##Update the database:
 
 dotnet ef database update
-Run the application:
+##Run the application:
 
 dotnet run
 Access the app: After running, you can access the app at http://localhost:5000.
 
-📖 Usage
+##📖 Usage
 Add a Car: Navigate to the Add Car page, fill in the required fields, and click Save.
 View All Cars: Go to the Cars List page to view all registered cars.
 Edit or Delete: Use the Edit and Delete buttons next to each car to update or remove records.
-🗂️ Project Structure
-The project is organized as follows:
 
+##🗂️ Project Structure
+The project is organized as follows:
 Controllers/: Contains the files for handling requests (CRUD operations).
 Models/: Contains the entities representing database tables.
 Views/: Contains Razor View files for each page.
